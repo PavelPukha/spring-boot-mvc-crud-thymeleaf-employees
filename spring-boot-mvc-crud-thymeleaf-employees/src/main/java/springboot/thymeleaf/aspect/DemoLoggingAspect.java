@@ -36,7 +36,7 @@ public class DemoLoggingAspect {
 
         Object[] args = theJoinPoint.getArgs();
 
-
+        //loop thru and display args
         for (Object tempArg : args) {
             myLogger.info("====>> argument: " + tempArg);
         }
